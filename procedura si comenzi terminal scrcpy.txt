@@ -25,6 +25,7 @@ adb pair IP_TELEFON:PORT
 Introdu codul afișat pe telefon: in optiuni dezvoltator, pair cu code
 ✔ Pairing-ul rămâne salvat
 --------------------------------
+adb tcpip:5555
 adb connect IP_TELEFON:5555 "pentru conectare pe cablu usb"
 adb connect IP_TELEFON:43431  "pentru conectare wireless"
 scrcpy
