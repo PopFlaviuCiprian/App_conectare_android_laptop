@@ -1,3 +1,6 @@
+https://github.com/Genymobile/scrcpy.git
+
+
 Condiții:
 Android 11, 12 sau 13
 Telefon + laptop pe același Wi-Fi
@@ -25,3 +28,4 @@ Introdu codul afișat pe telefon: in optiuni dezvoltator, pair cu code
 adb connect IP_TELEFON:5555 "pentru conectare pe cablu usb"
 adb connect IP_TELEFON:43431  "pentru conectare wireless"
 scrcpy
+
