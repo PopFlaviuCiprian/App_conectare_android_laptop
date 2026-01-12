@@ -1,0 +1,27 @@
+Condiții:
+Android 11, 12 sau 13
+Telefon + laptop pe același Wi-Fi
+Windows
+---------------------------------
+Activează usb debugging sau Wireless Debugging (telefon)
+Settings → About phone
+Apasă 7× pe MIUI version
+Settings → Additional settings → Developer options
+Activează:
+
+✅ USB debugging
+
+✅ Wireless debugging
+---------------------------------
+Pairing ADB (o singură dată)
+În Wireless debugging:
+Apasă Pair device with QR code
+(sau Pair using pairing code)
+Pe laptop, în folderul scrcpy:
+adb pair IP_TELEFON:PORT
+Introdu codul afișat pe telefon: in optiuni dezvoltator, pair cu code
+✔ Pairing-ul rămâne salvat
+--------------------------------
+adb connect IP_TELEFON:5555 "pentru conectare pe cablu usb"
+adb connect IP_TELEFON:43431  "pentru conectare wireless"
+scrcpy
